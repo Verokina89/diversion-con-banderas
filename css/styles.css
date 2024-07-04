@@ -8,3 +8,29 @@ body {
 h1 {
   color: #333;
 }
+
+#countries-list {
+  display: flex;
+  justify-content: space-center;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+
+.imgCountry {
+  margin: 5px ;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid  lightgrey;
+  border-radius: 5px;
+  box-shadow: ;
+}
+
+.imgCountryOut {
+
+}
